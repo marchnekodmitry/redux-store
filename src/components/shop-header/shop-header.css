@@ -1,0 +1,30 @@
+.shop-header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    box-sizing: content-box;
+}
+
+.shop-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid lightgray;
+}
+
+.shop-header h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.shop-header-info {
+    font-size: 1rem;
+}
+
+.shop-header-cart-icon {
+    color: #138496;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
