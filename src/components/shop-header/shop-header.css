@@ -1,11 +1,3 @@
-.shop-header {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
-
-    box-sizing: content-box;
-}
-
 .shop-header-wrapper {
     display: flex;
     justify-content: space-between;
@@ -17,10 +9,12 @@
 .shop-header h1 {
     font-weight: bold;
     font-size: 2.5rem;
+    color: #1b1e21;
 }
 
 .shop-header-info {
     font-size: 1rem;
+    color: #1b1e21;
 }
 
 .shop-header-cart-icon {

@@ -1,6 +1,5 @@
 .book-list {
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 20px;
 
     list-style: none;

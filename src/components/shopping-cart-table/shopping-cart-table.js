@@ -13,30 +13,32 @@ class ShoppingCartTable extends Component {
           <h2>Your Order</h2>
           <table className='table'>
             <thead>
-            <th>#</th>
-            <th>Item</th>
-            <th>Count</th>
-            <th>Price</th>
-            <th className='table-buttons-header'>Action</th>
+              <tr>
+                <th>#</th>
+                <th>Item</th>
+                <th>Count</th>
+                <th>Price</th>
+                <th className='table-buttons-header'>Action</th>
+              </tr>
             </thead>
             <tbody>
-            <tr>
-              <td>1</td>
-              <td>Learning JavaScript</td>
-              <td>2</td>
-              <td>32$</td>
-              <td className='table-buttons'>
-                <button className='btn btn-outline-danger btn-sm'>
-                  <FontAwesomeIcon icon={faTrash}/>
-                </button>
-                <button className='btn btn-outline-success btn-sm'>
-                  <FontAwesomeIcon icon={faPlusCircle}/>
-                </button>
-                <button className='btn btn-outline-warning btn-sm'>
-                  <FontAwesomeIcon icon={faMinusCircle}/>
-                </button>
-              </td>
-            </tr>
+              <tr>
+                <td>1</td>
+                <td>Learning JavaScript</td>
+                <td>2</td>
+                <td>32$</td>
+                <td className='table-buttons'>
+                  <button className='btn btn-outline-danger btn-sm'>
+                    <FontAwesomeIcon icon={faTrash}/>
+                  </button>
+                  <button className='btn btn-outline-success btn-sm'>
+                    <FontAwesomeIcon icon={faPlusCircle}/>
+                  </button>
+                  <button className='btn btn-outline-warning btn-sm'>
+                    <FontAwesomeIcon icon={faMinusCircle}/>
+                  </button>
+                </td>
+              </tr>
             </tbody>
           </table>
 
