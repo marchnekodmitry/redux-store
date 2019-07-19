@@ -3,16 +3,16 @@ export default class BookstoreService {
   data = [
     {
       id: 1,
-      label: 'Learning JavaScript',
+      title: 'Learning JavaScript',
       author: 'Ethan Brown',
-      price: '32$',
+      price: 32,
       image: 'img/image-1.jpg'
     },
     {
       id: 2,
-      label: 'JavaScript: The Good Parts',
+      title: 'JavaScript: The Good Parts',
       author: 'Douglas Crockford',
-      price: '32$',
+      price: 32,
       image: 'img/image-2.jpg'
     }
   ];
