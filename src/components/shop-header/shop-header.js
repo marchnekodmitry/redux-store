@@ -1,8 +1,9 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import './shop-header.css'
+import './shop-header.css';
 
 const ShopHeader = ({ numItems, totalPrice }) => {
   return (
@@ -22,4 +23,11 @@ const ShopHeader = ({ numItems, totalPrice }) => {
   );
 };
 
-export default ShopHeader;
+const mapStateToProps = ({ numItems, orderTotal }) => {
+  return {
+    numItems,
+    totalPrice: orderTotal
+  }
+};
+
+export default connect(mapStateToProps)(ShopHeader);

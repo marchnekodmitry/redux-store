@@ -1,9 +1,14 @@
 import React from 'react';
 
+import ShopHeader from '../shop-header';
+import ShoppingCartTable from '../shopping-cart-table';
 
 const CartPage = () => {
   return (
-    <div>Cart Page</div>
+    <React.Fragment>
+      <ShopHeader />
+      <ShoppingCartTable />
+    </React.Fragment>
   )
 };
 

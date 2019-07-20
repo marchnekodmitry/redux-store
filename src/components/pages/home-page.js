@@ -7,7 +7,7 @@ import ShoppingCartTable from '../shopping-cart-table';
 const HomePage = () => {
   return (
     <React.Fragment>
-      <ShopHeader numItems={5} totalPrice={210}/>
+      <ShopHeader />
       <BookList />
       <ShoppingCartTable />
     </React.Fragment>
